@@ -1,0 +1,46 @@
+         HC-05 Bluetooth Module
+         -----------------------
+        | VCC   →   5V (Arduino) |
+        | GND   →   GND          |
+        | TXD   →   RX (Pin 0)   |
+        | RXD   →   TX (Pin 1)   |
+         -----------------------
+
+                   Arduino UNO
+               ---------------------
+              | GND   → GND         |
+              | 5V    → VCC         |
+              | Pin 13 → LED Anode  |
+              ---------------------
+
+                   LED
+              Anode (+) —|>|— Cathode (–)
+                          |
+                        220Ω
+                          |
+                        GND
+
+
+
+Components Used:
+Arduino UNO
+
+HC-05 Bluetooth module
+
+LED
+
+220Ω resistor
+
+Jumper wires
+
+Breadboard
+
+
+| Component       | Connects To           |
+| --------------- | --------------------- |
+| HC-05 VCC       | Arduino 5V            |
+| HC-05 GND       | Arduino GND           |
+| HC-05 TXD       | Arduino RX (Pin 0)    |
+| HC-05 RXD       | Arduino TX (Pin 1)    |
+| LED Anode (+)   | Arduino Pin 13        |
+| LED Cathode (–) | GND via 220Ω resistor |
