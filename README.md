@@ -4,21 +4,21 @@ Developed an IoT-based home automation system using Arduino to control lights an
 
 This project demonstrates a simple home automation system using Arduino, digital logic, and Bluetooth communication. An LED is turned ON/OFF using commands sent via a mobile app over Bluetooth.
 
-## 🔧 Components Used
+##  Components Used
 - Arduino Uno
 - Bluetooth HC-05 Module
 - LED
 - Resistors
 - Connecting wires
 
-## 📲 How It Works
+##  How It Works
 - Mobile app sends data (‘1’ or ‘0’) via Bluetooth
 - Arduino reads data and turns LED ON/OFF accordingly
 
-## 🧠 Features
+##  Features
 - Remote control using Bluetooth
 - Low power consumption
 - Can be extended to control fans, bulbs, etc.
 
-## 🔗 Author
-Project by [Your Name], as part of internship at Codex Technologies.
+##  Author
+Project by [peddisetty Anuradha priyasha], as part of internship at Codex Technologies.
